@@ -75,7 +75,8 @@ const Posts = () => {
 
   return (
     <SideBar>
-      <h2>Form Velidation with Formik</h2>
+      <span>Please start Json-Server using "npm run start:server" command </span>
+      <h2>Form Velidation with Formik</h2> 
       <div className='container'>
         <form onSubmit={handleSubmit}>
           <div className='form-group'>
