@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    z-index: 9;
+    .nav-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        line-height: 90px;
+        ul{
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            li{ margin-right: 25px; 
+                a{text-decoration: none;
+                    color: #000000;
+                    padding: 0 15px;
+                }
+            }
+        }
+        .navbar-brand{
+            height: 70px;
+            width: 190px;
+            img{width: 100%; height: 100%;}
+        }
+    }
+}
+
+
+.wrapper{
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    .sidebar{
+        background-color: #172541;
+        color: #fff;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        height: 100%;
+        width: 230px;
+        ul{
+            padding: 0;
+            list-style: none;
+            li{
+                cursor: pointer;
+                padding: 10px 15px;
+                a{ text-decoration: none; }
+                &:hover{
+                    background-color: #ffffff;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    .main-container{
+        margin-top: 10px; 
+        margin-left: 250px;
+        padding: 20px;
+        .container{
+            form{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                .form-group{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    margin: 15px 0px;
+                    width: 200px;
+                    label{
+                        margin-bottom: 5px;
+                        font-size: 20px;
+                        font-family: 'Tahoma';
+                        font-weight: 700;
+                    }
+                    select{
+                        height: 40px;
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                    button{
+                        height: 40px;
+                        border: none;
+                        background-color: #172541;
+                        color: #ffffff;
+                        font-size: 18px;
+                        font-family: 'Tahoma';
+                        outline: none;
+                        border-radius: 5px;
+                        &:hover{
+                            background-color: #15387f;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

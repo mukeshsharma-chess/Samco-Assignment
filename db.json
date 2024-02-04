@@ -1,0 +1,132 @@
+{
+    "countries": [
+      { "id": 1, "name": "USA" },
+      { "id": 2, "name": "India" }
+    ],
+    "states": [
+      {
+        "countryId": 1,
+        "id": 101,
+        "name": "New York"
+      },
+      {
+        "countryId": 1,
+        "id": 102,
+        "name": "California"
+      },
+      {
+        "countryId": 2,
+        "id": 201,
+        "name": "Maharashtra"
+      },
+      {
+        "countryId": 2,
+        "id": 202,
+        "name": "Karnataka"
+      }
+    ],
+    "districts": [
+      {
+        "stateId": 101,
+        "id": 1001,
+        "name": "New York City"
+      },
+      {
+        "stateId": 101,
+        "id": 1002,
+        "name": "Buffalo"
+      },
+      {
+        "stateId": 102,
+        "id": 1003,
+        "name": "Los Angeles"
+      },
+      {
+        "stateId": 102,
+        "id": 1004,
+        "name": "San Francisco"
+      },
+      {
+        "stateId": 201,
+        "id": 2001,
+        "name": "Mumbai"
+      },
+      {
+        "stateId": 201,
+        "id": 2002,
+        "name": "Pune"
+      },
+      {
+        "stateId": 202,
+        "id": 2003,
+        "name": "Bangalore"
+      },
+      {
+        "stateId": 202,
+        "id": 2004,
+        "name": "Mysuru"
+      }
+    ],
+    "cities": [
+      {
+        "districtId": 1001,
+        "id": 10001,
+        "name": "Manhattan"
+      },
+      {
+        "districtId": 1001,
+        "id": 10002,
+        "name": "Brooklyn"
+      },
+      {
+        "districtId": 1002,
+        "id": 10003,
+        "name": "Downtown Buffalo"
+      },
+      {
+        "districtId": 1002,
+        "id": 10004,
+        "name": "North Buffalo"
+      },
+      {
+        "districtId": 1003,
+        "id": 10005,
+        "name": "Downtown Los Angeles"
+      },
+      {
+        "districtId": 1003,
+        "id": 10006,
+        "name": "Hollywood"
+      },
+      {
+        "districtId": 1004,
+        "id": 10007,
+        "name": "Downtown San Francisco"
+      },
+      {
+        "districtId": 1004,
+        "id": 10008,
+        "name": "Golden Gate"
+      },
+      {
+        "districtId": 2001,
+        "id": 20001,
+        "name": "South Mumbai"
+      },
+      {
+        "districtId": 2001,
+        "id": 20002,
+        "name": "Central Mumbai"
+      },
+      {
+        "districtId": 2002,
+        "id": 20003,
+        "name": "East Pune"
+      },
+      {
+        "districtId": 2002,
+        "id": 20004,
+        "name": "West Pune"
+      }
+    ]
+}
